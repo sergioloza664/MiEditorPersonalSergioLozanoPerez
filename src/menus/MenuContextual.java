@@ -41,19 +41,19 @@ public class MenuContextual extends JPopupMenu{
 		//-------------------------------------------------------
 		menuItemCortar=new JMenuItem(ResourceBundle.getBundle("recursos.idiomas.Etiquetas").getString("menu_editar_cortar"), Icono.iconoCortar());
 		menuItemCortar.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, InputEvent.CTRL_DOWN_MASK));
-		menuItemCortar.setActionCommand("menuItemContextualCortar");
+		menuItemCortar.setActionCommand("menuItemCortar");
 		menuItemCortar.addActionListener(new Evento(panelPrincipal));
 		this.add(menuItemCortar);//Añade el item al menu contextual
 		
 		menuItemCopiar=new JMenuItem(ResourceBundle.getBundle("recursos.idiomas.Etiquetas").getString("menu_editar_copiar"), Icono.iconoCopiar());
 		menuItemCopiar.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_C, InputEvent.CTRL_DOWN_MASK));
-		menuItemCopiar.setActionCommand("menuItemContextualCopiar");
+		menuItemCopiar.setActionCommand("menuItemCopiar");
 		menuItemCopiar.addActionListener(new Evento(panelPrincipal));
 		this.add(menuItemCopiar);		
 		
 		menuItemPegar=new JMenuItem(ResourceBundle.getBundle("recursos.idiomas.Etiquetas").getString("menu_editar_pegar"), Icono.iconoPegar());
 		menuItemPegar.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_V, InputEvent.CTRL_DOWN_MASK));
-		menuItemPegar.setActionCommand("menuItemContextualPegar");
+		menuItemPegar.setActionCommand("menuItemPegar");
 		menuItemPegar.addActionListener(new Evento(panelPrincipal));
 		this.add(menuItemPegar);
 		
