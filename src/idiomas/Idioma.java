@@ -168,6 +168,7 @@ public class Idioma {
 		noVentanaSalir=ResourceBundle.getBundle("recursos.idiomas.Etiquetas_es").getString("ventana_salir_no");
 		
 		traduccionVentanaColor=Locale.forLanguageTag("es");
+		tituloVentanaColor=ResourceBundle.getBundle("recursos.idiomas.Etiquetas_es").getString("ventana_color_titulo");
 		
 		traduccionVentanaAbrir=Locale.forLanguageTag("es");
 		traduccionVentanaGuardar=Locale.forLanguageTag("es");
@@ -259,6 +260,7 @@ public class Idioma {
 				noVentanaSalir=ResourceBundle.getBundle("recursos.idiomas.Etiquetas_en").getString("ventana_salir_no");
 				
 				traduccionVentanaColor=Locale.forLanguageTag("en");
+				tituloVentanaColor=ResourceBundle.getBundle("recursos.idiomas.Etiquetas_en").getString("ventana_color_titulo");
 				
 				traduccionVentanaAbrir=Locale.forLanguageTag("en");
 				traduccionVentanaGuardar=Locale.forLanguageTag("en");
