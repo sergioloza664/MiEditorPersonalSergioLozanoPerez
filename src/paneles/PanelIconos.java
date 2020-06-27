@@ -43,9 +43,9 @@ public class PanelIconos extends JToolBar {
 		
 		botonesArchivo();
 		tipografiaTexto();
+		tamanyoLetra();
 		formatoTexto();
 		alineacionTexto();
-		tamanyoLetra();
 		colortexto();
 		idiomaTexto();
 		introduceElementosPanel();
@@ -188,6 +188,7 @@ public class PanelIconos extends JToolBar {
 		this.add(botonSalir);
 		this.addSeparator();
 		this.add(comboBoxTipografia);
+		this.add(comboBoxTamanyoLetra);
 		this.addSeparator();
 		this.add(botonNegrita);
 		this.add(botonCursiva);
@@ -197,8 +198,6 @@ public class PanelIconos extends JToolBar {
 		this.add(botonTextoCentrado);
 		this.add(botonTextoDerecha);
 		this.add(botonTextoJustificado);
-		this.addSeparator();
-		this.add(comboBoxTamanyoLetra);
 		this.addSeparator();
 		this.add(botonColorFuente);
 		this.addSeparator();
